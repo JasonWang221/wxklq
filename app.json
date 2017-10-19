@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/city/city",
+    "pages/home/home",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "color": "#676767",
+    "selectedColor": "#546e7a",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/indexN.png",
+        "selectedIconPath": "image/indexS.png"
+      },
+      {
+        "pagePath": "pages/city/city",
+        "text": "同城圈",
+        "iconPath": "image/cityN.png",
+        "selectedIconPath": "image/cityS.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "image/homeN.png",
+        "selectedIconPath": "image/homeS.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "看灵丘",
+    "navigationBarTextStyle": "black"
+  }
+}
