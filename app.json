@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/city/city",
     "pages/home/home",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/test/test"
   ],
   "tabBar": {
     "color": "#676767",
@@ -36,6 +37,6 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "看灵丘",
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "black"
   }
 }

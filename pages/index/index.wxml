@@ -16,5 +16,9 @@
      <view>-----------</view>
      <view>-----------</view>
      <navigator url="../detail/detail?type=sj" hover-class="navigator-hover">商    家</navigator>
+     <view>-----------</view>
+     <view>-----------</view>
+     <view>-----------</view>
+     <navigator url="../test/test" hover-class="navigator-hover">测    试</navigator>
   </view>
 </view>

@@ -13,7 +13,9 @@
         </view>
       </view>
       <text class="centerContent">{{info.content}}</text>
-      -->
+      <view class="imgContent">
+        <image class='item' wx:for="{{pictures}}" wx:key="unique"src="{{item}}" data-index="{{index}}" bindtap="previewImage" style='height:{{cellHeight}}'></image>
+      </view>
       <!-- 底部view样式 -->
       <!--
       <view class="bottomView">
@@ -34,6 +36,6 @@
           <text class="bottomItemText">{{item.comment}}</text>
         </view>
       </view> -->
-    </view> 
+    </view>
   </block>
 </scroll-view>
