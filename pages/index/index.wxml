@@ -12,9 +12,9 @@
   </view>
   <view class="userhello">
      <navigator url="../detail/detail?type=jz" hover-class="navigator-hover">家    政</navigator>
-     <view></view>
-     <view></view>
-     <view></view>
+     <view>-----------</view>
+     <view>-----------</view>
+     <view>-----------</view>
      <navigator url="../detail/detail?type=sj" hover-class="navigator-hover">商    家</navigator>
   </view>
 </view>

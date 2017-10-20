@@ -1,7 +1,7 @@
 <!--pages/detail/detail.wxml-->
 <loading hidden="{{loadingHidden}}">正在加载...</loading>
 
-<scroll-view scroll-y="true" bindscrolltoupper="bindscrolltoupper" bindscrolltolower="bindscrolltolower" style="height: 100%">
+<scroll-view scroll-y="true" style="height:{{windowHeight}};width:{{windowWidth}}">
   <block wx:for="{{list}}" wx:for-item="info">
     <view class="divLine"></view>
     <view class="containsView">
