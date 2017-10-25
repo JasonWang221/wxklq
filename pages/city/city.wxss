@@ -1,1 +1,68 @@
 /* pages/city/city.wxss */
+page{
+  height:100%;
+}
+.pages-container { 
+ height: 100%; 
+ display: flex; 
+ flex-direction: column; 
+ box-sizing: border-box; 
+ padding-top: 10rpx 0; 
+} 
+.pages-wrapper{
+  height: 100%;
+  width:100%;
+  margin-top:20rpx;
+}
+  
+.pages-title-bg { 
+ width: 100%; 
+}
+  
+.pages-row { 
+ width: 100%; 
+ display: flex; 
+ flex-direction: row; 
+ justify-content: space-around; 
+} 
+  
+.pages-item { 
+ position: relative; 
+ width: 33%; 
+ height: 310rpx;
+} 
+.pages-item-content{
+  margin:0 5rpx 5rpx 0;
+  height: 294rpx;
+  border:1px solid #ddd;
+  background-color:#fff; 
+}
+.pages-icon-wrapper { 
+ display: flex; 
+ justify-content: space-around; 
+ align-items: center; 
+ height: 75%; 
+} 
+  
+.pages-icon-wrapper-no-bg { 
+ display: flex; 
+ justify-content: space-around; 
+ align-items: center; 
+ margin: 10rpx; 
+ height: 75%; 
+} 
+  
+.pages-icon { 
+ width: 100rpx; 
+ height: 100rpx; 
+} 
+  
+.pages-text-wrapper { 
+ text-align: center; 
+ height: 25%;
+} 
+  
+.pages-text { 
+ font-weight: 500; 
+ font-size:28rpx;
+} 

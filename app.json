@@ -5,38 +5,38 @@
     "pages/city/city",
     "pages/home/home",
     "pages/detail/detail",
-    "pages/test/test"
+    "pages/upload/upload"
   ],
   "tabBar": {
     "color": "#676767",
     "selectedColor": "#546e7a",
     "borderStyle": "white",
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#00a0e9",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "image/indexN.png",
-        "selectedIconPath": "image/indexS.png"
+        "iconPath": "image/icon/indexN.png",
+        "selectedIconPath": "image/icon/indexS.png"
       },
       {
         "pagePath": "pages/city/city",
         "text": "同城圈",
-        "iconPath": "image/cityN.png",
-        "selectedIconPath": "image/cityS.png"
+        "iconPath": "image/icon/cityN.png",
+        "selectedIconPath": "image/icon/cityS.png"
       },
       {
         "pagePath": "pages/home/home",
         "text": "我的",
-        "iconPath": "image/homeN.png",
-        "selectedIconPath": "image/homeS.png"
+        "iconPath": "image/icon/homeN.png",
+        "selectedIconPath": "image/icon/homeS.png"
       }
     ]
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "看灵丘",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#00a0e9",
+    "navigationBarTitleText": "灵丘资讯平台",
+    "navigationBarTextStyle": "white"
   }
 }

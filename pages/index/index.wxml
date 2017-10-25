@@ -1,5 +1,7 @@
 <!--index.wxml-->
 <view class="container">
+  <!--获取用户信息模块-->
+  <!--
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -10,15 +12,21 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  -->
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+    <block wx:for="{{images}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item.url}}" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
   <view class="userhello">
-     <navigator url="../detail/detail?type=jz" hover-class="navigator-hover">家    政</navigator>
-     <view>-----------</view>
-     <view>-----------</view>
-     <view>-----------</view>
-     <navigator url="../detail/detail?type=sj" hover-class="navigator-hover">商    家</navigator>
-     <view>-----------</view>
-     <view>-----------</view>
-     <view>-----------</view>
-     <navigator url="../test/test" hover-class="navigator-hover">测    试</navigator>
+    <navigator url="../detail/detail?type=jz" hover-class="navigator-hover">生活服务</navigator>
+    <view>-----------</view>
+    <view>-----------</view>
+    <view>-----------</view>
+    <navigator url="../upload/upload" hover-class="navigator-hover">我要爆料</navigator>
   </view>
 </view>
